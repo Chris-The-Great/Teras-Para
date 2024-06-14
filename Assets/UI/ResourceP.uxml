@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/TextSystem.uss?fileID=7433441132597879392&amp;guid=1a0c308eb36698c42b92d6b432dac93d&amp;type=3#TextSystem" />
+    <ui:VisualElement name="missionPageHolder" style="height: 100%; width: 100%; justify-content: flex-start; align-items: center;">
+        <ui:VisualElement name="pageBackGround" style="width: 60%; height: 100%; justify-content: flex-start; align-items: center;">
+            <ui:VisualElement name="resourcePage" style="width: 60%; height: 100%; background-image: resource(&apos;_Art/Amanada/Pages/ProdoP&apos;);">
+                <ui:Label text="Mutant Bones :" display-tooltip-when-elided="true" name="mutantBones" class="text" style="height: 52px; width: 578px; position: absolute; white-space: normal; top: 218px; left: 106px; -unity-text-align: middle-left;" />
+                <ui:Label text="Mutant Blood : " display-tooltip-when-elided="true" name="mutantBlood" class="text" style="position: absolute; top: 375px; left: 108px; height: 5%; width: 584px; white-space: normal; -unity-text-align: middle-left; font-size: 70%;" />
+                <ui:Label text="Mutant Souls :" display-tooltip-when-elided="true" name="mutantSouls" class="text" style="position: absolute; top: 535px; left: 102px; height: 5%; width: 586px; white-space: normal; -unity-text-align: middle-left;" />
+                <ui:Button text="Accpet" display-tooltip-when-elided="true" name="Accpet" style="position: absolute; top: 876px; left: -4px; height: 20%; width: 100%; font-size: 200px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/TextSystem.uss?fileID=7433441132597879392&amp;guid=1a0c308eb36698c42b92d6b432dac93d&amp;type=3#TextSystem" />
+    <ui:VisualElement name="pageHolder" style="height: auto; width: auto; align-items: center; justify-content: space-around;">
+        <ui:VisualElement name="pageBackground" style="width: 70%; height: 100%; justify-content: flex-start; align-items: center;">
+            <ui:VisualElement name="page" style="width: 70%; height: 100%; background-image: resource(&apos;_Art/Amanada/Pages/MedusaP&apos;); justify-content: flex-start; align-items: stretch; flex-shrink: 1; flex-direction: column;">
+                <ui:VisualElement name="NameHolder" style="height: 20%; width: 100%; justify-content: space-around; align-items: flex-end; font-size: 100%;">
+                    <ui:Label tabindex="-1" text="Name" display-tooltip-when-elided="true" name="Name" class="text" style="position: relative; width: auto; height: auto; padding-left: 0; padding-right: 0; font-size: 70%; -unity-font: url(&apos;project://database/Assets/Standard%20Assets/Fonts/OpenSans/OpenSansBold.ttf?fileID=12800000&amp;guid=87c316b602156405d92e616621658222&amp;type=3#OpenSansBold&apos;); justify-content: flex-start; -unity-text-align: lower-center; align-self: center; align-items: auto;" />
+                </ui:VisualElement>
+                <ui:Label tabindex="-1" text="Health" display-tooltip-when-elided="true" name="Health" enable-rich-text="true" focusable="false" class="text" style="height: 5%; width: 100%; -unity-text-align: middle-left; font-size: 60%; padding-left: 0; padding-right: 0; flex-wrap: nowrap; position: relative; top: auto; left: auto; padding-bottom: 0; margin-bottom: 50px; margin-top: 0;" />
+                <ui:Label tabindex="-1" text="Strength" display-tooltip-when-elided="true" name="Strength" class="text" style="height: 5%; width: 100%; position: relative; top: auto; left: auto; -unity-text-align: middle-left; font-size: 60px; margin-bottom: 50px; margin-top: 0;" />
+                <ui:Label tabindex="-1" text="Knowledge" display-tooltip-when-elided="true" name="Knowledge" class="text" style="height: 5%; width: 100%; position: relative; top: auto; left: auto; font-size: 60px; -unity-text-align: middle-left; margin-bottom: 50px; margin-top: 0;" />
+                <ui:Label tabindex="-1" text="Salvage" display-tooltip-when-elided="true" name="Salvage" class="text" style="height: 5%; width: 100%; position: relative; top: auto; left: auto; -unity-text-align: middle-left; font-size: 60px; margin-bottom: 50px; margin-top: 0;" />
+                <ui:Label tabindex="-1" text="Defense" display-tooltip-when-elided="true" name="Defense" class="text" style="height: 5%; width: 100%; position: relative; top: auto; left: auto; font-size: 60px; -unity-text-align: middle-left; margin-bottom: 50px; margin-top: 0;" />
+                <ui:Label tabindex="-1" text="Status" display-tooltip-when-elided="true" name="Status" class="text" style="height: 5%; width: 100%; position: relative; top: auto; left: auto; font-size: 60px; -unity-text-align: middle-left; margin-bottom: 50px; margin-top: 0;" />
+                <ui:Button text="Send" display-tooltip-when-elided="true" name="Accpet" style="position: relative; top: auto; left: auto; height: 20%; width: 100%; font-size: 200px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

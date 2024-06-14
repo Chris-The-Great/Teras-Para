@@ -1,0 +1,10 @@
+Button{
+	background-color:  yellow;
+}
+
+#attack{
+	background-color: pink;
+}
+#attack:hover {
+	background-color:  yellow;
+}

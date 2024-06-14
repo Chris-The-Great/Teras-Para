@@ -1,0 +1,40 @@
+Proyecto BBB.png
+size:2012,1692
+filter:Linear,Linear
+pma:true
+body
+bounds:391,765,588,925
+close eye
+bounds:1238,12,346,152
+offsets:1,1,348,154
+rotate:90
+head
+bounds:752,8,484,755
+offsets:0,0,1377,755
+left foot
+bounds:981,819,380,871
+left hand
+bounds:354,53,396,671
+left leg
+bounds:1363,1303,387,647
+rotate:90
+right foot
+bounds:2,726,387,964
+right hand
+bounds:1363,798,503,598
+rotate:90
+right leg
+bounds:2,42,350,682
+snake
+bounds:1238,360,412,436
+snake1
+bounds:1392,18,340,271
+rotate:90
+snake2
+bounds:1665,491,305,313
+rotate:90
+snake3
+bounds:1665,2,230,204
+snake4
+bounds:1665,208,281,283
+rotate:90

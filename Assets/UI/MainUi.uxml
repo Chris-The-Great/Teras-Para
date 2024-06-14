@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="uiHolder" style="flex-grow: 1; align-items: auto;">
+        <ui:VisualElement name="InfoHolder" style="flex-grow: 1; height: 20%; width: 100%; background-image: none; position: absolute; justify-content: flex-start; flex-direction: row;">
+            <ui:VisualElement name="mutantIcon" style="flex-grow: 1; background-image: resource(&apos;Temp/765344&apos;); width: 25%; height: 100%;" />
+            <ui:Label tabindex="-1" text="x10000" parse-escape-sequences="true" display-tooltip-when-elided="true" name="mutantNumber" style="width: 25%; height: 100%; font-size: 100px;" />
+            <ui:VisualElement name="sunIcon" style="flex-grow: 1; background-image: resource(&apos;Temp/sun-icon-vector&apos;); width: 25%; height: 100%;" />
+            <ui:Label tabindex="-1" text="000" parse-escape-sequences="true" display-tooltip-when-elided="true" name="dayNumber" style="width: 25%; height: 100%; font-size: 100px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

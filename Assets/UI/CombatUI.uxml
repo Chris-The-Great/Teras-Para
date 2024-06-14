@@ -1,0 +1,54 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="Background" tabindex="0" style="height: 100%; width: 100%; background-image: resource(&apos;_Art/Amanada/CombatBackgrounds/6F3C2091-CA05-48FD-8DA4-F7F870788CA4&apos;);">
+        <ui:VisualElement name="combatViewer" style="width: 100%; height: 77%; justify-content: center; align-items: stretch; flex-direction: row;">
+            <ui:VisualElement name="heroHolder" style="width: 40%; height: 100%;">
+                <ui:VisualElement name="heroMember1" style="background-image: resource(&apos;_Art/CharacterArt/Heroes/AvatarV1&apos;); width: 618px; height: 548px; position: absolute; top: 90px; left: 324px;" />
+                <ui:VisualElement name="heroMember2" style="background-image: resource(&apos;_Art/CharacterArt/Heroes/ProdoV2&apos;); width: 618px; height: 548px; position: absolute; top: 302px; left: 154px;" />
+                <ui:VisualElement name="heroMember3" focusable="false" tabindex="0" style="background-image: resource(&apos;_Art/CharacterArt/Heroes/CyclopsV2&apos;); width: 618px; height: 548px; position: absolute; top: 192px; left: -178px;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Space" style="width: 10%; height: 100%;" />
+            <ui:VisualElement name="mutantHolder" style="width: 40%; height: 100%;">
+                <ui:VisualElement name="mutantMember1" style="background-image: resource(&apos;_Art/CharacterArt/Mutants/GriffinEnemy&apos;); width: 618px; height: 548px; position: absolute; top: 98px; left: 92px;" />
+                <ui:VisualElement name="mutantMember2" style="background-image: resource(&apos;_Art/CharacterArt/Mutants/GriffinEnemy&apos;); width: 618px; height: 548px; position: absolute; top: 306px; left: -160px;" />
+                <ui:VisualElement name="mutantMember3" style="background-image: resource(&apos;_Art/CharacterArt/Mutants/GriffinEnemy&apos;); width: 618px; height: 548px; position: absolute; top: 314px; left: 324px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="combatControls" style="width: 100%; height: 23%; flex-direction: row;">
+            <ui:VisualElement name="heroInfo" style="width: 50%; height: 100%; align-items: stretch; justify-content: flex-start;">
+                <ui:VisualElement name="healthBarDisplay" focusable="false" tabindex="0" style="background-image: resource(&apos;_Art/Amanada/HealthBars/CyclopsHealthBar&apos;); width: 100%; height: 100%; position: relative; justify-content: flex-start; align-items: stretch;">
+                    <ui:Label text="20/20" display-tooltip-when-elided="true" name="displayHealth" style="width: 100%; height: 100%; color: rgb(10, 10, 10); font-size: 60px; -unity-text-align: middle-center; justify-content: center; align-items: center; position: relative; top: auto; left: auto;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="attackCommands" style="width: 50%; height: 100%;">
+                <ui:Button text="Attack" display-tooltip-when-elided="true" name="attack" style="width: 100%; height: 25%; font-size: 70px; background-color: rgb(0, 0, 0); color: rgb(255, 255, 255);" />
+                <ui:Button text="Skills" display-tooltip-when-elided="true" name="skills" style="width: 100%; height: 25%; font-size: 70px; background-color: rgb(0, 0, 0); color: rgb(255, 255, 255);" />
+                <ui:Button text="Heal" display-tooltip-when-elided="true" name="heal" style="width: 100%; height: 25%; font-size: 70px; background-color: rgb(0, 0, 0); color: rgb(255, 255, 255);" />
+                <ui:Button text="Defend" display-tooltip-when-elided="true" name="defend" style="width: 100%; height: 25%; font-size: 70px; background-color: rgb(0, 0, 0); color: rgb(255, 255, 255);" />
+            </ui:VisualElement>
+            <ui:VisualElement name="moveInfo" style="width: 50%; height: 100%;">
+                <ui:Label text="Cyclops Clap" display-tooltip-when-elided="true" name="moveName" style="-unity-text-align: upper-center; font-size: 60px; width: 100%; height: 30%; color: rgb(255, 255, 255);" />
+                <ui:Label text="Cyclops claps his hands together at quick speeds to blow away an enemy. &#10;" display-tooltip-when-elided="true" name="moveDes" style="font-size: 40px; white-space: normal; color: rgb(255, 255, 255);" />
+            </ui:VisualElement>
+            <ui:VisualElement name="mutantSelectHolder" style="width: 1924px; height: 245px; flex-direction: row; position: absolute; opacity: 1; display: none;">
+                <ui:Button text="Button" display-tooltip-when-elided="true" name="mutant1" style="width: 33%; height: 100%; background-image: resource(&apos;_Art/Amanada/HealthBars/GriffinHealthBar&apos;); background-color: rgb(0, 0, 0); font-size: 40px; -unity-text-align: middle-center; color: rgb(0, 0, 0);" />
+                <ui:Button text="Button" display-tooltip-when-elided="true" name="mutant2" style="width: 33%; height: 100%; background-image: resource(&apos;_Art/Amanada/HealthBars/GriffinHealthBar&apos;); background-color: rgb(0, 0, 0); font-size: 40px; color: rgb(0, 0, 0);" />
+                <ui:Button text="Button" display-tooltip-when-elided="true" name="mutant3" style="width: 34%; height: 100%; background-image: resource(&apos;_Art/Amanada/HealthBars/GriffinHealthBar&apos;); background-color: rgb(0, 0, 0); font-size: 40px; color: rgb(0, 0, 0);" />
+            </ui:VisualElement>
+            <ui:VisualElement name="skillsHolder" style="width: 1924px; height: 245px; flex-direction: column; position: absolute; -unity-text-align: upper-left; align-items: center; justify-content: center; flex-wrap: nowrap; display: none;">
+                <ui:Button text="Button" display-tooltip-when-elided="true" name="skills1" style="width: 30%; height: 25%; font-size: 70px; color: rgb(238, 238, 238); background-color: rgba(88, 88, 88, 0);" />
+                <ui:Button text="Button" display-tooltip-when-elided="true" name="skills2" style="width: 30%; height: 25%; font-size: 70px; color: rgb(238, 238, 238); background-color: rgba(88, 88, 88, 0);" />
+                <ui:Button text="Button" display-tooltip-when-elided="true" name="skills3" style="width: 30%; height: 25%; font-size: 70px; color: rgb(238, 238, 238); background-color: rgba(88, 88, 88, 0);" />
+                <ui:Button text="Button" display-tooltip-when-elided="true" name="skills4" style="width: 30%; height: 25%; font-size: 70px; color: rgb(238, 238, 238); background-color: rgba(88, 88, 88, 0);" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:Label text="Wave : 0" display-tooltip-when-elided="true" name="waveNumber" style="position: absolute; height: 63px; width: 446px; color: rgb(0, 0, 0); font-size: 50px;" />
+    <ui:VisualElement name="combatStatHolder" tabindex="0" style="height: 492px; width: 100%; justify-content: flex-start; align-items: stretch; flex-direction: column; flex-wrap: nowrap; color: rgb(0, 0, 0); background-color: rgb(0, 0, 0); position: absolute; top: 596px; left: 0; display: none;">
+        <ui:Label display-tooltip-when-elided="true" name="healthIncrease" text="Label" style="width: 100%; height: 17%; color: rgb(255, 255, 255); font-size: 70px;" />
+        <ui:Label text="Label" display-tooltip-when-elided="true" name="strengthIncrease" style="width: 100%; height: 17%; color: rgb(255, 255, 255); font-size: 70px;" />
+        <ui:Label text="Label" display-tooltip-when-elided="true" name="knowledgeIncrease" style="width: 100%; height: 17%; color: rgb(255, 255, 255); font-size: 70px;" />
+        <ui:Label text="Label" display-tooltip-when-elided="true" name="salvageIncrease" style="width: 100%; height: 17%; color: rgb(255, 255, 255); font-size: 70px;" />
+        <ui:Label text="Label" display-tooltip-when-elided="true" name="defenseIncrease" style="width: 100%; height: 17%; font-size: 70px; color: rgb(255, 255, 255);" />
+        <ui:Button text="Next" display-tooltip-when-elided="true" name="Next" style="width: 20%; height: 17%; align-items: stretch; justify-content: flex-start; flex-direction: column; color: rgb(255, 255, 255); font-size: 70px;" />
+    </ui:VisualElement>
+</ui:UXML>

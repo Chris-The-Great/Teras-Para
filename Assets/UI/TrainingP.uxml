@@ -1,0 +1,17 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/TextSystem.uss?fileID=7433441132597879392&amp;guid=1a0c308eb36698c42b92d6b432dac93d&amp;type=3#TextSystem" />
+    <ui:VisualElement name="trainingPageHolder" style="height: 100%; width: 100%; justify-content: flex-start; align-items: center;">
+        <ui:VisualElement name="pageBackGround" style="width: 60%; height: 100%; justify-content: flex-start; align-items: center;">
+            <ui:VisualElement name="trainingPage" style="width: 60%; height: 100%; background-image: resource(&apos;_Art/Amanada/Pages/GriffinP&apos;);">
+                <ui:Label tabindex="-1" text="Training Grounds" parse-escape-sequences="true" display-tooltip-when-elided="true" name="name" style="width: 100%; height: 14%; -unity-text-align: middle-center; font-size: 60px;" />
+                <ui:Label tabindex="-1" text="Select a training spot" parse-escape-sequences="true" display-tooltip-when-elided="true" name="locationHolder" style="-unity-text-align: upper-center; font-size: 45px;" />
+                <ui:Label tabindex="-1" text="Grounds for stregnth " parse-escape-sequences="true" display-tooltip-when-elided="true" name="groundsText" style="-unity-text-align: upper-center; font-size: 45px; padding-top: 50px;" />
+                <ui:Button text="Send" parse-escape-sequences="true" display-tooltip-when-elided="true" name="groundButton" style="font-size: 25px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;" />
+                <ui:Label tabindex="-1" text="Research center for knowledge" parse-escape-sequences="true" display-tooltip-when-elided="true" name="resreashText" style="-unity-text-align: upper-center; font-size: 45px; padding-top: 50px;" />
+                <ui:Button text="Send" parse-escape-sequences="true" display-tooltip-when-elided="true" name="researchButton" style="font-size: 25px; padding-top: 8px; padding-right: 0; padding-bottom: 0; padding-left: 0;" />
+                <ui:Label tabindex="-1" text="Pool for health" parse-escape-sequences="true" display-tooltip-when-elided="true" name="poolText" style="-unity-text-align: upper-center; font-size: 45px; padding-top: 50px;" />
+                <ui:Button text="Send" parse-escape-sequences="true" display-tooltip-when-elided="true" name="poolButton" style="font-size: 25px; padding-right: 0; padding-bottom: 0; padding-left: 0; padding-top: 6px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

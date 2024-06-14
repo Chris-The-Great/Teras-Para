@@ -1,0 +1,5 @@
+.text {
+    font-size: 70px;
+    color: rgba(17, 16, 16, 255);
+    -unity-text-align: middle-center;
+}
